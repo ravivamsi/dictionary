@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meanings and More"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/imageview"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageview"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dlogo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:id="@+id/txt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageview"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="devasset.com"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt"
+        android:textColor="#057dde"
+        />
+</RelativeLayout>
